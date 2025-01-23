@@ -1,15 +1,15 @@
 # Omni AGI - Autonomous AI Venture Capital Agent
 
 ## Overview
-Omni AGI is an autonomous AI agent designed for blockchain operations and venture capital analysis. It combines advanced AI models with blockchain integration, offering automated market analysis, portfolio management, and social engagement capabilities.
+Omni AGI is an advanced autonomous AI agent tailored for blockchain operations and venture capital analysis. It combines state-of-the-art AI models with seamless blockchain integration, providing automated market insights, portfolio management, and social engagement capabilities for the next-generation digital economy.
 
 ## Key Features
-- **Autonomous Decision Making**: Advanced reasoning engine with multi-model AI integration (Claude, Groq)
-- **Multi-Chain Support**: Integrated support for Solana and Ethereum (zkSync)
-- **DeFi Integration**: Built-in interfaces for Aave, Uniswap, and other major DeFi protocols
-- **Social Intelligence**: Twitter and Discord integration for community engagement and sentiment analysis
-- **Advanced Cognition**: Memory management, learning systems, and goal-oriented behavior
-- **Market Analysis**: Real-time crypto market analysis and portfolio management
+- **Autonomous Decision-Making**: Integrates multi-model AI (Claude, Groq) for advanced reasoning and analytics.
+- **Multi-Chain Support**: Fully supports Solana and Ethereum (zkSync) ecosystems.
+- **DeFi Integration**: Direct interfaces with leading DeFi protocols such as Aave, Uniswap, and more.
+- **Social Intelligence**: Monitors and interacts on Twitter and Discord for sentiment analysis and community engagement.
+- **Cognitive Capabilities**: Features memory management, adaptive learning, and goal-oriented behaviors.
+- **Market Analysis**: Delivers real-time crypto market insights and automated portfolio optimization.
 
 ## Architecture
 ```
@@ -42,7 +42,7 @@ git clone https://github.com/yourusername/omni-agi.git
 cd omni-agi
 ```
 
-2. Create and activate virtual environment:
+2. Create and activate a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
@@ -54,17 +54,16 @@ source venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-4. Configure environment:
+4. Configure environment variables:
 ```bash
 cp .env.example .env
 # Edit .env with your API keys and configuration
 ```
 
 ### Configuration
-Update the following configuration files:
-- `config/settings.yaml`: Main configuration
-- `config/personality.yaml`: Agent personality settings
-- `config/prompts.yaml`: AI prompt templates
+- **Main Configuration**: `config/settings.yaml`
+- **Agent Personality**: `config/personality.yaml`
+- **AI Prompt Templates**: `config/prompts.yaml`
 
 ## Usage
 
@@ -72,16 +71,16 @@ Update the following configuration files:
 ```python
 from src.agent import Agent
 
-# Initialize agent
+# Initialize the agent
 agent = Agent()
 
-# Start agent
+# Start the agent
 await agent.start()
 
-# Process input
+# Process user input
 response = await agent.process_input("Analyze SOL market conditions")
 
-# Execute specific task
+# Execute specific tasks
 result = await agent.execute_task(
     task_type="market_analysis",
     parameters={"token": "SOL"}
@@ -89,9 +88,9 @@ result = await agent.execute_task(
 ```
 
 ### Advanced Features
-- Portfolio Management
-- Market Analysis
-- Social Engagement
+- Automated Portfolio Management
+- Real-Time Market Analysis
+- Social Media Engagement
 - DeFi Operations
 
 ## Development
@@ -100,66 +99,32 @@ result = await agent.execute_task(
 ```bash
 pytest tests/
 ```
-
-### Code Style
-The project uses:
-- Black for formatting
-- Flake8 for linting
-- Pre-commit hooks for consistency
-
-### Contributing
-1. Fork the repository
-2. Create your feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## System Components
-
 ### AI Models
-- Claude for primary reasoning
-- Groq for fast inference
-- Custom prompt management
+- **Claude**: Primary reasoning engine
+- **Groq**: High-performance AI inference
+- **Custom Prompt Management**: Dynamic and task-specific prompts
 
 ### Blockchain Integration
-- Solana wallet and transaction management
+- Solana wallet and transaction support
 - Ethereum/zkSync integration
-- DeFi protocol interfaces
+- DeFi protocol interfaces for seamless operations
 
 ### Cognitive Systems
-- Context management
-- Memory systems
-- Learning capabilities
-- Reasoning engine
+- Contextual memory management
+- Adaptive learning capabilities
+- Goal-oriented reasoning engine
 
 ### Social Integration
 - Twitter analytics and engagement
 - Discord community management
-- Sentiment analysis
-
-## License
-[MIT License](LICENSE)
-
-## Acknowledgments
-- Solana Foundation
-- Anthropic (Claude)
-- Groq
-- Community contributors
-
-## Contact
-For questions and support, please open an issue or contact the maintainers.
-
-## Roadmap
-- [ ] Enhanced market analysis
-- [ ] Multi-chain portfolio management
-- [ ] Advanced social engagement
-- [ ] Improved learning capabilities
-- [ ] Extended DeFi integrations
+- Sentiment and trend analysis
 
 ## Security
-Please report security vulnerabilities to [security contact].
+To report security issues, please contact us at [security contact].
 
 ## Documentation
-Full documentation is available in the `/docs` directory.
+Comprehensive documentation can be found in the `/docs` directory.
 
+## If you have any questions
+Telegram <a href="https://t.me/Immutal0" target="_blank">@Immutal0</a>
 
